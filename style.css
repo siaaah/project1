@@ -1,0 +1,97 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+}
+
+#topPage_ad {
+    border: 3px salmon solid;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+h3 {
+    text-align: center;
+    background-color: #c5afa0;
+    padding: 8px;
+}
+
+#container {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#logo {
+    width: 400px;
+    margin: auto;
+    padding-bottom: 15px
+}
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+}
+
+.account {
+    float: right;
+}
+
+.navigation {
+    float: left;
+}
+
+a {
+    color: #c5afa0;
+}
+
+li {
+    display: inline;
+
+}
+
+li:hover {
+    background-color: lavender;
+}
+
+li a:link {
+    text-decoration: none;
+}
+
+li a:active {
+    text-decoration: underline;
+}
+
+#main-navigation {
+    padding-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 5px 40px;
+}
+
+table th{
+    width: 300px;
+    padding: 5px;
+}
+
+img {
+    width: 300px;
+
+}
+
+#products tr th a{
+    text-decoration: none;
+
+}
+
+#products tr th:hover{
+    background-color: lavender;
+}
