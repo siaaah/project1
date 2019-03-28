@@ -45,6 +45,7 @@ ul {
 
 a {
     color: #c5afa0;
+    text-decoration: none;
 }
 
 li {
@@ -94,4 +95,31 @@ img {
 
 #products tr th:hover{
     background-color: lavender;
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: lavender;
+    color: white;
+    width: auto;
+
+}
+
+#shop {
+    width:20px;
 }
