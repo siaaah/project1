@@ -155,12 +155,12 @@
 
     function showSlides() {
         var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
+        var slides = document.getElementsByClassName("mySlides"); //this pulls documents by class name with mySlides
+        var dots = document.getElementsByClassName("dot"); // this pulls document by class name of dot
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        slideIndex++;
+        slideIndex++; //for dots
         if (slideIndex > slides.length) {slideIndex = 1}
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
@@ -168,7 +168,7 @@
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 4000);
-    }
+    } //code was borrowed from W3
 </script>
 
 
