@@ -8,7 +8,6 @@
 
 </head>
 <body>
-
 <h3>FREE SHIPPING on orders $50+ no code needed</h3>
 
 <div id = 'container'>
@@ -31,6 +30,22 @@
 <div id="logoBanner">
     <center><a href="index.html"><img id="logo" src="assets/logo.svg" alt="lavenderBoxLogo"></a></center>
 </div>
+
+    <div class="slideshow-box">
+
+        <div class="slide fade">
+            <img src="assets/lav-box1.jpg" alt="image1" style="width: 100%">
+        </div>
+
+        <div class="slide fade">
+            <img src="assets/lav-box2.jpg" alt="image1" style="width: 100%">
+        </div>
+
+        <div class="slide fade">
+            <img src="assets/lav-box3.jpg" alt="image1" style="width: 100%">
+        </div>
+
+    </div> <!--referencing W3's automatic slide show webpage -->
 
     <div id="main-navigation">
 <nav>
@@ -108,6 +123,22 @@
     <h3> Lavender Box | 2019 </h3>
 </div>
 <!-- end of container -->
+<script>
+    var slideIndex=0;
+    showSlide();
+
+    function showSlide() {
+        var i;
+        var slide = document.getElementById("slide");
+        for (i=0; i < slide.length; i++) {
+            slide[i].style.display = "none";
+        }
+
+        slide[slideIndex-1].style.display = "block";
+        setTimeout(showSlide, 4000);
+    }
+</script>
+
 
 
 </body>
